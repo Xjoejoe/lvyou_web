@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/swiper.min.css"/>
+	<link rel="stylesheet" href="css/styles.css"/>
+	<title>内容页</title>
+</head>
+<body>
+	<header>
+		<div class="header-back-history">
+			<i class="fa fa-chevron-left"></i>
+		</div>
+		<div class="header-title">
+			一日游
+		</div>
+		<div class="header-index-page">
+			<i class="fa fa-home"></i>
+		</div>
+	</header>
+	<div class="content-ctn">
+		<div class="content-banner-ctn">
+			<div class="content-banner">
+				<div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			        	<img src="images/banner1.jpg" alt="">
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="images/banner2.jpg" alt="">
+			        </div>
+			        <div class="swiper-slide">
+			        	<img src="images/banner3.jpg" alt="">
+			        </div>
+			    </div>
+			</div>
+		</div>
+		<div class="content-title">
+			<div class="content-title-txt">
+				黔北花海—杉坪一日游 天天发团
+			</div>
+			<div class="content-title-price">
+				<p class="content-title-price-adult">
+					成人价：<span class="content-title-price-num">￥39元</span>/人
+				</p>
+				<p class="content-title-price-child"> 
+					儿童：<span class="content-title-price-num">￥39元</span>/人
+				</p>
+			</div>
+		</div>
+		<div class="content-desc">
+			1、 800余亩的紫色海洋,1600米的紫金花长廊,满山遍野的波斯菊
+
+			2、 贵州的普罗旺斯——上千亩的紫色马鞭草，让没有时间走出国门的你也能感受到紫色浪漫
+
+			3、 男女老少休闲聚会的好去处
+		</div>
+		<a herf="#" class="content-details content-router">
+			参考行程
+			<span class="content-arrow-right">
+				<i class="fa fa-chevron-right"></i>
+			</span>
+		</a>
+		<a herf="#" class="content-details content-price-detail">
+			费用说明
+			<span class="content-arrow-right">
+				<i class="fa fa-chevron-right"></i>
+			</span>
+		</a>
+		<a herf="#" class="content-details content-sign-address">
+			报名地址
+			<span class="content-arrow-right">
+				<i class="fa fa-chevron-right"></i>
+			</span>
+		</a>
+		<a herf="#" class="content-details content-tips">
+			温馨提示
+			<span class="content-arrow-right">
+				<i class="fa fa-chevron-right"></i>
+			</span>
+		</a>
+	</div>
+	<footer>
+		<a herf="#" href="#" class="footer-phone footer-grid">电话</a>
+		<a herf="#" href="#" class="footer-about-us footer-grid">关于我们</a>
+		<a herf="#" href="#" class="footer-main-page footer-grid">首页</a>
+	</footer>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		$(function(){
+			var contentSwiper = new Swiper ('.content-banner', {
+				    loop: true,
+				    autoplay:true
+			  });        
+		});
+	</script>
+</body>
+</html>
